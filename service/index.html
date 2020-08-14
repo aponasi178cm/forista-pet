@@ -1,0 +1,263 @@
+
+<!doctype html>
+<html>
+  <head prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article#">
+    <title>サービス紹介｜forista Pet（フォリスタ ペット）</title>
+ 
+  <meta property="og:url" content="https://pet-test-dot-forista-web-dev.appspot.com/service/" />
+   
+  <meta property="og:type" content="article" />
+   
+  <meta property="og:title" content="サービス紹介ページ" />
+   
+  <meta property="og:description" content="このページではフォリスタペットの具体的な機能やサービス内容について説明しています。様々な機能を持つフォリスタペットについて丁寧に一つずつ解説をしています。" />
+   
+  <meta property="og:site_name" content="forista Pet（フォリスタ ペット）" />
+   
+  <meta property="og:image" content=" https://pet-test-dot-forista-web-dev.appspot.com/image/common/pet_rogo_01.png" />
+
+
+  
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/service/foristapet2.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script type="text/javascript" src="http://code.jquery.com/jquery-3.1.0.min.js"></script>
+    <!-- ＃リンクのスムーズスクロール -->
+    <script>
+      $(function(){
+        // #で始まるリンクをクリックしたら実行されます
+        $('a[href^="#"]').click(function() {
+          // スクロールの速度
+          var speed = 400; // ミリ秒で記述
+          var href= $(this).attr("href");
+          var target = $(href == "#" || href == "" ? 'html' : href);
+          var position = target.offset().top;
+          $('body,html').animate({scrollTop:position}, speed, 'swing');
+          return false;
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <!--ヘッダー部分のコーディング-->
+    <header>
+    <nav class="navbar navbar-expand-md  navbar-light  header pt-4 pb-4">
+  <a class="navbar-brand col-6" href="/"><img src="/image/common/pet_rogo_01.png" alt="フォリスタペットのロゴ"></a>
+  <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#bs-navi" aria-controls="bs-navi" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse header-text" id="bs-navi">
+    <ul class="navbar-nav">
+      <li class="nav-item"><a class="nav-link text-white" href="/">トップ&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+      <li class="nav-item"><a class="nav-link text-white" href="#service">サービス&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+      <li class="nav-item"><a class="nav-link text-white" href="/buy/">ビーコン購入&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+      <li class="nav-item"><a class="nav-link text-white" href="../question/">よくある質問&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+      <li class="nav-item"><a class="nav-link text-white" href="/contact/">お問い合わせ</a></li>
+    </ul>
+  </div>
+</nav>
+</header>
+
+    <!--サービス部分のコーディング-->
+    <!-- サービス部分を下に下ろした4/2 -->
+    <div class="contents01" id="service1">
+    　 <div class="container service" id="service">
+        <div class="service">
+          <div class="service-img0 pt-5">
+            <img src="/image/service/pet_top02.jpg" alt="" class="service-img w-100">
+          </div>
+
+          <div class="row service-contents">
+            <div class="service-left col-12  col-lg-4 col-xl-5 pl-5">
+              <p style="text-align: justify;">「フォリスタ ペット」は位置情報に特化したサービス！いつものお散歩に安心をプラスする迷子ペット捜索協力アプリです。ビーコンという迷子札をつけていればもしものときはアプリから “捜索願い” を出すことができ、街中の協力者とすれ違うことで発見通知を受け取れます</p>
+            </div>
+
+            <div class="service-right col-12 col-lg-8 col-xl-7 p">
+              <img src="/image/service/pet02_map.png" alt="ペット捜索の流れ" class="service-img1 w-100">
+            </div>
+
+          </div>
+
+        </div>
+    　
+    　 </div>
+    </div>
+
+    <!-- 文字の両端揃えのため編集を行う4/8 -->
+
+    <div class="contents003">
+    <div class="container pt-5 contents003">
+      <h4 class="text-center pb-3 pt-2">サービスの特徴</h4>
+      <h4 class="text-center text004 pb-1">ペットはどこ？迷子になっちゃった！</h4>
+          <div class="row text-center">
+
+            <div class="contents03 mx-auto col-lg-4">
+              <p class="text03 mt-3">お散歩ログ画面</p>
+              <h4 class="pb-3 textop">ペットの行動範囲がわかる<br>"お散歩ログ"</h4>
+              <p class="test01">現在のペットの位置と昨日のお散歩ログ（ペットの行動範囲）がわかる。</p>
+              <img src="/image/service/iPhoneX_pet_01.png" alt="ペットが行動した範囲のスマホ画面" class="w-50 pb-3">
+            </div>
+
+            <div class="contents03 mx-auto col-lg-4">
+              <p class="text03 mt-3">ペット登録画面</p>
+              <h4 class="pb-4 pt-2">"迷子捜索のお願い"</h4>
+              <p class="test01">ペットが居なくなったら、ペット登録画面から迷子捜索のお願いをします。</p>
+              <img src="/image/service/iPhoneX_pet_03.png"  alt="ペットのプロフィールのスマホ画面" class="w-50 pt-1 pb-3">
+            </div>
+
+            <div class="contents03 mx-auto col-lg-4">
+              <p class="text03 mt-3">捜す依頼画面</p>
+              <h4 class="pb-4 pt-2">"みんなで捜して!"</h4>
+              <p class="test01">捜索をお願いする時には居なくなった状況や特徴などコメントを入力してから捜索依頼を出す。</p>
+              <img src="/image/service/iPhoneX_pet_07.png"  alt="捜索願いの表示がされているスマホ画面" class="w-50 pb-3">
+            </div>
+
+          </div>
+
+          <h4 class="text-center pb-1 pt-5 text004">迷子ペットをみんなで探す!</h4>
+
+          <div class="row text-center pb-5">
+
+            <div class="contents03 mx-auto col-lg-4">
+              <p class="text03 mt-3">迷子マップ画面</p>
+              <h4 class="pb-4 pt-2 textop">"迷子ペットをそれぞれ案内"</h4>
+              <p class="test01">迷子ペットの情報を表示そして迷子ペットがすれ違ったらお知らせがきて位置確認できます。</p>
+              <img src="/image/service/iPhoneX_pet_09.png" alt="迷子ペットの位置情報を表すスマホ画面" class="w-50">
+            </div>
+
+            <div class="contents03 mx-auto col-lg-4">
+              <p class="text03 mt-3">迷子ペット詳細画面</p>
+              <h4 class="">ペットの位置を"飼い主に知らせる"</h4>
+              <p class="test01">迷子ペットの位置情報“を飼い主にすぐ知らせる”機能に加え“飼い主の声”で呼べる機能付き。</p>
+              <img src="/image/service/iPhoneX_pet_05.png" alt="ペットの捜索を依頼するスマホ画面" class="w-50">
+            </div>
+
+            <div class="contents03 mx-auto col-lg-4">
+              <p class="text03 mt-3">飼い主の声を再生する画面</p>
+              <h4 class="pb-4 pt-2">"飼い主の声で捜せる"</h4>
+              <p class="test01">迷子ペットが茂みのなかなどに入り込んだ時には“飼い主の声を再生”して呼んでみてください</p>
+              <img src="/image/service/iPhoneX_pet_06.png" alt="飼い主の声を録音するスマホ画面" class="w-50">
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+
+      <div class="row text-center conatiner005 pb-3">
+        <div class="col-sm-6">
+          <div class="contents0003 m-4">
+            　<h4 class="pb-3 pt-2">ギャラリー</h4>
+            　<p class="test01">ユーザーの皆さんがワンちゃん、ネコちゃんを写真に撮ることで、アプリに記録・公開することができます。投稿時［トレカとして配信を許可］してもらえば、「コレクション」に配信されます。
+              　</p>
+            　<img src="/image/service/iPhoneX_pet_gallery.png" alt="ペットの写真が複数写っているギャラリーのスマホ画面" class="image003">
+            　
+            　</div>
+        </div>
+        <div class="col-sm-6">
+          <div class="contents0003 m-4">
+            <h4 class="pb-3 pt-4">コレクション</h4>
+            <p class="test01 pt-4">投稿された写真の中から、"今日のピックアップ" として 1 枚がトレーディングカードのように毎日配信されます。
+            </p>
+            <img src="/image/service/iPhoneX_pet_collection.png" alt="ペットのコレクション写真を表しているスマホ画面" class="pt-4 image003">
+          </div>
+        </div>
+      </div>
+
+
+    <div class="container Introduction pt-5">
+      <h4 class="pt-3">取り扱いビーコンについてのご紹介</h4>
+        <div class="row pb-2">
+          <div class="Introduction-left  col-12 col-xl-6 col-lg-6">
+            <img src="/image/service/pet_Beacon001.png" alt="丸くてかわいいタイプのビーコン" class="img-01">
+          </div>
+            <div class="Introduction-right col-12 col-xl-6 col-lg-6">
+              <img src="/image/service/pet_Beacon002.png" alt="夜にひかる蓄光タイプのビーコン" class="img-01">
+            </div>
+
+        </div>
+        <p>フォリスタペットでは２種の当社オリジナル"ビーコン"をご用意しました。</p>
+        <p>下のボタンから詳細はご覧いただけます。</p>
+        <p>※当社ペット用ビーコンはwebのみの販売になります(2020年1月現在)</p>
+        <a href="../buy"><h1 class="btnimg pb-5"><img src="/image/service/button_syousai01.png" alt="ビーコン購入ページへの詳細リンク" class="btn-img"></h1></a>
+
+    </div>
+
+
+    <!-- 以下フォッター部分の作成を行うが１ページ目と違ってbootを積極的に利用して作成する -->
+    <!-- 以下はフッターなので３ページ目にも共通して -->
+
+
+        <div class="footer container-fluid pt-5">
+          <div class="footer-contents">
+            <p>ペットのセイフティーネットをみんなでつくる迷子ペット捜査協力アプリ</p>
+            <p class="download-btn"><img src="/image/common/pet_08_deki12.jpg" alt=""  style="width:100%; max-width: 300px;"></p>
+
+        <div class="container">
+         <div class="row btn-class">
+         <p class="apple-btn col-lg-6 col-md-6 col-sm-12"><a href="https://apps.apple.com/us/app/forista-pet-%E3%83%95%E3%82%A9%E3%83%AA%E3%82%B9%E3%82%BF-%E3%83%9A%E3%83%83%E3%83%88/id1461446828">
+           <img src="/image/common/apple_img.png" alt="Apple Storeのロゴ" style="width:100%; max-width: 300px;" class="pt-3 apple"></a>
+         </p>
+
+         <p class="google-btn col-lg-6 col-md-6 col-sm-12">
+           <a href="https://play.google.com/store/apps/details?id=jp.forista.pet">
+             <img src="/image/common/google_img.png" alt="Google playのロゴ" style="width:100%; max-width: 300px;"
+               class="pt-3 google"></a></p>
+       </div>
+     </div>
+
+
+
+
+            <div class="apple-log pt-5">
+            <p>・Apple、Appleのロゴ、App Store、iPadのロゴ、iTunesは、米国および他国のApple Inc.の登録商標です。<br>・Google、Android、Google Play(旧 Android マーケット)、Google Chrome、Nexus、Android One、Google Pixel 3、Google Pixel 3 XLは、Google LLCの商標または登録商標です。</p>
+            <br>
+          </div>
+          </div>
+        </div>
+        <!-- 以下は大きいロゴの部分のフッターを作成した -->
+        <div class="footer2 pb-3 pt-4">
+          <div class="footer2 container-fluid">
+            <p class="text-center">
+            <img src="/image/common/pet_rogo_02.png" alt="フォリスタペットの大きなロゴ" class="">
+            </p>
+        </div>
+        </div>
+
+         <!-- 　フッター完成4.28 エラーチェックを利用した編集 -->
+        <!-- CSSのフッター部分も追加する -->
+        <div class="footer01">
+          <br>
+        　　<ul class="footer-menu">
+           <li><a href="#top1" class="link">｜トップ ｜</a></li>
+           <li><a href="/service/" class="link">サービス ｜</a></li>
+           <li><a href="/buy/" class="link">ビーコン購入 ｜<br class="br-sp"></a></li>
+           <li><a href="/question/" class="link"><span class="br-sp">｜</span>よくある質問｜</a></li>
+           <li><a href="/contact/" class="link">お問い合わせ ｜</a></li>
+           <li><a href="https://pedalnote.jp/" class="link">運営会社 ｜<br class="br-sp"></a></li>
+           <li><a href="/terms/" class="link"><span class="br-sp">｜</span>利用契約 ｜</a></li>
+           <li><a href="https://pedalnote.jp/policy/" class="link">プライバシーポリシー｜</a></li>
+          </ul>
+          
+          <br>
+          <p class="explanation">Copyright © PEDALNOTE, INC Inc. All Rights Reserved.</p>
+          <br>
+        </div>
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    
+  </body>
+</html>

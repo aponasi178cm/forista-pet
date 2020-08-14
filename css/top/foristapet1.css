@@ -1,0 +1,243 @@
+.header{
+  background-color: rgba(34, 19, 16, 0.7);
+  position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+
+.header-text li:hover{
+  opacity:0.6;
+}
+
+
+.top{
+  background-image: url(/image/top/pet_01_top.jpg);
+  background-size: cover;
+}
+
+.top-text{
+  text-align: center;
+   color:white;
+   opacity: 0.8;
+}
+
+.top-img{
+  text-align: center;
+}
+
+.information{
+background-color: #221310;
+}
+
+.information p{
+  color:white;
+}
+
+.contents01{
+  background-color:#EEEEEE;
+}
+
+
+.contents1 h3{
+  text-align: center;
+}
+
+.contentsimg01{
+  width: 50%;
+  text-align: center;
+}
+.contents1-1 h5{
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+}
+
+
+
+.contents1-1 p{
+  font-size: 12px;
+  text-align: center;
+  font-weight: 500;
+  line-height: 23px;
+}
+
+.contents1{
+  text-align: center;
+}
+.sub{
+  color:#FF9900;
+}
+
+.contents2 p{
+  line-height: 2.3;
+  text-align: justify;
+}
+
+
+
+.contents2 h3{
+  text-align: center;
+}
+
+
+
+.contents003{
+  background-color:#EEEEEE;
+}
+
+.text03{
+    background-color: #99CC66;
+    color:white;
+}
+
+
+
+.contents003 p{
+  line-height:30px;
+}
+
+.contents3-1 {
+  text-align: center;
+}
+
+.text-top{
+  color:white;
+background-color: #99CC66;
+}
+
+.function{
+  color:#FF773E;
+}
+
+/* 以下の部分はメディアの囲み枠の調整を行う */
+
+.media-img{
+  width: 75%;
+}
+
+.media-img01{
+  text-align: center;
+}
+
+.text-both{
+  text-align: justify;
+}
+
+.date{
+  color:green;
+}
+
+
+
+
+
+.footer{
+  background-image: url(/image/common/pet_10_sita.jpg);
+  background-size: cover;
+}
+
+.footer p{
+  text-align: center;
+}
+
+
+
+.apple{
+  width: 80%;
+
+}
+
+.google{
+  width: 84%;
+}
+
+/* フッターの部分 */
+
+.footer01{
+    width: 100%;
+    height: auto;
+    background-color:black;
+    color: white;
+    text-align: center;
+}
+ul.footer-menu li {
+display: inline;
+}
+
+.link{
+  color: white;
+}
+
+/* アップルとGoogleのロゴがクリックされた時に薄くするコード4-27 */
+
+.apple:hover{
+  opacity:0.7;
+}
+
+.google:hover{
+  opacity:0.7;
+}
+
+  /* フッター部分にカーソルがあった時に色を薄くする */
+.footer-menu li:hover{
+  opacity: 0.6;
+}
+
+
+/* フッター部分 */
+
+
+@media (max-width:670px){
+  .apple{
+    width: 140%;
+
+
+  }
+
+  .google{
+    width: 144%;
+  }
+
+  .download{
+    width: 40%;
+  }
+
+  .media-img{
+    width: 100%;
+  }
+
+  .subfunction{
+    padding-left: 90px;
+  }
+
+  .explanation{
+    font-size: 15px;
+  }
+
+  
+}
+
+/* フッターの制作(一番下の部分)4.23 */
+
+@media (max-width:670px){
+
+  .footer-menu li{
+    font-size:15px;
+  }
+
+}
+
+.footer2{
+  background-color:#99CC00;
+}
+
+.footer-menu li{
+  color:white;
+}
+
+@media screen and (min-width:670px){
+  .br-sp {
+    display: none;
+  }
+
+}

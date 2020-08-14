@@ -1,0 +1,654 @@
+/*リンク*/
+#mainNav a {color: #333!important;}
+.text-link {color: #1f8fc3!important;}
+
+#mainNav .navbar-nav > li > a:hover,
+#mainNav .navbar-nav > li > a:focus:hover {
+color:#8FC31F!important;
+}
+#mainNav .navbar-nav > li > a.active {
+  color: #8FC31F!important;
+  background-color: transparent;
+}
+
+.header-text li:hover{
+  opacity:0.6;
+}
+
+  /* フッター部分にカーソルがあった時に色を薄くする */
+  .footer-menu li:hover{
+    opacity: 0.6;
+  }
+
+
+/* 4.10自分で追加した分 */
+
+.header{
+  background-color: rgba(34, 19, 16, 0.7);
+  position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+
+/* フッターの部分 */
+
+.footer01{
+    width: 100%;
+    height: auto;
+    background-color:black;
+    color: white;
+    text-align: center;
+}
+ul.footer-menu li {
+display: inline;
+}
+
+.link{
+  color: white;
+}
+
+/* 4.10自分で追加した分 */
+
+
+
+a:hover img {
+  opacity: 0.7!important;
+  filter: alpha(opacity=70)!important;
+  -ms-filter: "alpha(opacity=70)"!important;
+}
+
+/*特徴ボックス*/
+.funbox {
+    position: relative;
+    margin: 2em 0;
+    padding: 0.5em 1em;
+    border: solid 3px #04cb70;
+    border-radius: 8px;
+}
+.funbox .box-title {
+    position: absolute;
+    display: inline-block;
+    top: -13px;
+    left: 10px;
+    padding: 0 9px;
+    line-height: 1;
+    font-size: 19px;
+    background: #FFF;
+    color: #04cb70;
+    font-weight: bold;
+}
+
+.funbox p {
+    margin: 0;
+    padding: 0;
+}
+
+.funlist ul li{list-style: none; margin: 0; padding: 0;}
+.funlist li {list-style: none;}
+.funlist h6 {color: #04cb70;font-weight: 600;display: inline}
+.funlist li:before{content: "\f00c";color: #04cb70;font-family: FontAwesome;margin-right: 5px;font-weight: 600;}
+
+*{
+  margin:0;
+  padding:0;
+}
+
+
+.safetybox {
+    position: relative;
+    margin: 2em 0;
+    padding: 0.5em 1em;
+    border: solid 3px #f39800;
+    border-radius: 8px;
+}
+.safetybox .box-title {
+    position: absolute;
+    display: inline-block;
+    top: -13px;
+    left: 10px;
+    padding: 0 9px;
+    line-height: 1;
+    font-size: 19px;
+    background: #FFF;
+    color: #f39800;
+    font-weight: bold;
+}
+
+.safetybox p {
+    margin: 0;
+    padding: 0;
+}
+
+.safetylist ul li{list-style: none; margin: 0; padding: 0;}
+.safetylist li {list-style: none;}
+.safetylist h6 {color: #f39800;font-weight: 600;display: inline}
+.safetylist li:before{content: "\f00c";color: #f39800;font-family: FontAwesome;margin-right: 5px;}
+
+
+.i-box {
+    position: relative;
+    margin: 2em 0;
+    padding: 0.5em 1em;
+    border: solid 3px #ddd;
+    border-radius: 8px;
+}
+.i-box .box-title {
+    position: absolute;
+    display: inline-block;
+    top: -13px;
+    left: 10px;
+    padding: 0 9px;
+    line-height: 1;
+    font-size: 19px;
+    background: #FFF;
+    color: #333;
+    font-weight: bold;
+}
+
+.i-box p {
+    margin: 0;
+    padding: 0;
+}
+
+
+/*スケジュール*/
+.schedule {background: #ff4e5b!important;padding: 5px 10px; display: inline;border-radius:10px;color: #fff;}
+
+/*背景*/
+.bg-primary {background: #8FC31F!important;}
+.bg-gara {background-image: url('../img/bg-gara.png')}
+.bg-stripes {background-image: url('../img/bg-stripes.png')}
+.bg-gray {background: #f5f5f5!important;}
+.bg-white{background: #fff!important}
+.bg-chain {background-image: url('../img/bg-chain.png')}
+
+
+/*フォント*/
+.text-primary{color: #8FC31F!important;}
+.text-red {color: #ff0000!important;}
+.text-black{color: #333!important;}
+.text-green{color: #04cb70!important;}
+.text-gray {color: #ccc!important;}
+.text-pink {color: #ff1493!important;}
+
+.t-18{font-size: 18px!important;}
+.t-22{font-size: 22px!important;}
+.t-24{font-size: 24px!important;}
+.t-28{font-size: 28px!important;}
+.t-32{font-size: 32px!important;}
+.t-34{font-size: 34px!important;}
+.t-35{font-size: 35px!important;}
+
+/*coming soon*/
+.cs {border-radius: 5px;color: #ff1493; background:#fff;padding: 2px 6px; font-size: 12px; font-weight: 600;border: 1px solid #ff1493;}
+
+/*アプリアイコン*/
+.app {border-radius: 20px; padding: 10px;}
+
+/*フッター*/
+footer {background: #fff!important;}
+footer, footer ul li a {
+	color: #333!important;
+}
+.footerlink li:before{content: "｜";margin-right: 5px;}
+.footerlink li:last-child:after {content: "｜";margin-left: 5px;}
+
+/*メインロゴ設定*/
+.logo {
+    width: 180px;
+    height: 34px;
+    float: left;
+    text-indent: -9987em;
+    text-align: left;
+    background: url('../img/logo.png') left center no-repeat;
+    background-size: 100%; }
+
+.logo a {display: block;}
+
+
+/*ボタン*/
+.btn {background: #333!important}
+
+.btn-outline:hover, .btn-outline:focus, .btn-outline:active, .btn-outline.active {
+  border-color: #8FC31F!important;
+  background-color: #8FC31F!important;
+}
+
+
+.btn-off {background: #ddd!important}
+
+.btn-outline-off:hover, .btn-outline-off:focus, .btn-outline-off:active, .btn-outline-off.active {
+  border-color: #ddd!important;
+  background-color: #ddd!important;
+}
+
+
+
+.masthead {
+background: url("../img/bg-pattern.png"), #8FC31F!important;  /* fallback for old browsers */
+background: url("../img/bg-pattern.png"), -webkit-linear-gradient(to right, #8FC31F, #b0d562)!important;  /* Chrome 10-25, Safari 5.1-6 */
+background: url("../img/bg-pattern.png"), linear-gradient(to right, #8FC31F, #b0d562)!important; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+
+
+
+/*見出し*/
+.headline{
+margin-top: 10px;
+color: #fff;/*文字色*/
+padding: 5px;/*文字周りの余白*/
+display: block;/*おまじない*/
+line-height: 1.3;/*行高*/
+background: #8FC31F;/*背景色*/
+vertical-align: middle;/*上下中央*/
+padding-left: 12px;
+}
+
+
+/*step*/
+.no-mark{background: #8FC31F; color: #fff;padding: 5px 10px;margin: 5px;font-size: 14px;font-weight: 600;display: inline-block;}
+
+/*faq*/
+.faqlist { list-style: none; }
+.faqlist ul li{margin:0; padding: 0; list-style: none;}
+.question {font-weight: 600;padding: 10px 0px;}
+.question:before {background: #8FC31F; color: #fff; content: "Q"; font-size: 24px; padding: 5px 10px; margin-right: 8px;border-radius:28px;font-weight: 600;}
+.answer {padding: 10px 0px;margin-bottom: 5px;}
+
+#faq01{padding: 10px;}
+#faq02,
+#faq03,
+#faq04,
+#faq05,
+#faq06,
+#faq07,
+#faq08,
+#faq09,
+#faq10,
+#faq11,
+#faq12,
+#faq13{padding: 10px;padding-top: 50px;}
+
+.faq-headline {border-top: 3px solid #292929;padding-top: 5px;font-weight: 600;color: #292929}
+.a-notes {background: #f5f5f5;padding: 10px;border: 1px solid #ddd;}
+.q-mark{background: #8FC31F; color: #fff;border-radius:50%;padding: 5px 10px;margin-right: 5px;font-size: 14px;font-weight: 600;display: inline-block;}
+.a-mark{background:#d2e7a5; color:#8FC31F;border-radius:50%;padding: 5px 10px;margin-right: 5px;font-size: 14px;font-weight: 600; display: inline-block;}
+
+
+ul,li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+#accordion_menu > li,
+#accordion_menu_faq2 > li,
+#accordion_menu_faq3 > li,
+#accordion_menu_faq4 > li,
+#accordion_menu_faq5 > li,
+#accordion_menu_faq6 > li,
+#accordion_menu_faq7 > li,
+#accordion_menu_faq8 > li,
+#accordion_menu_faq9 > li,
+#accordion_menu_faq10 > li,
+#accordion_menu_faq11 > li,
+#accordion_menu_faq12 > li,
+#accordion_menu_faq13 > li {
+    border-bottom: #292929 1px solid;
+    margin-bottom: -1px;
+}
+
+#accordion_menu > li:first-child,
+#accordion_menu_faq2 > li:first-child,
+#accordion_menu_faq3 > li:first-child,
+#accordion_menu_faq4 > li:first-child,
+#accordion_menu_faq5 > li:first-child,
+#accordion_menu_faq6 > li:first-child,
+#accordion_menu_faq7 > li:first-child,
+#accordion_menu_faq8 > li:first-child,
+#accordion_menu_faq9 > li:first-child,
+#accordion_menu_faq10 > li:first-child,
+#accordion_menu_faq11 > li:first-child,
+#accordion_menu_faq12 > li:first-child,
+#accordion_menu_faq13 > li:first-child{
+	border-top: #292929 1px solid;
+    }
+
+#accordion_menu a,
+#accordion_menu_faq2 a,
+#accordion_menu_faq3 a,
+#accordion_menu_faq4 a,
+#accordion_menu_faq5 a,
+#accordion_menu_faq6 a,
+#accordion_menu_faq7 a,
+#accordion_menu_faq8 a,
+#accordion_menu_faq9 a,
+#accordion_menu_faq10 a,
+#accordion_menu_faq11 a,
+#accordion_menu_faq12 a,
+#accordion_menu_faq13 a{
+    color: #333;
+    font-weight: 600;
+}
+#accordion_menu a[data-toggle="collapse"],
+#accordion_menu_faq2 a[data-toggle="collapse"],
+#accordion_menu_faq3 a[data-toggle="collapse"],
+#accordion_menu_faq4 a[data-toggle="collapse"],
+#accordion_menu_faq5 a[data-toggle="collapse"],
+#accordion_menu_faq6 a[data-toggle="collapse"],
+#accordion_menu_faq7 a[data-toggle="collapse"],
+#accordion_menu_faq8 a[data-toggle="collapse"],
+#accordion_menu_faq9 a[data-toggle="collapse"],
+#accordion_menu_faq10 a[data-toggle="collapse"],
+#accordion_menu_faq11 a[data-toggle="collapse"],
+#accordion_menu_faq12 a[data-toggle="collapse"],
+#accordion_menu_faq13 a[data-toggle="collapse"]{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    position: relative;
+}
+#accordion_menu a[data-toggle="collapse"]:hover,
+#accordion_menu_faq2 a[data-toggle="collapse"]:hover,
+#accordion_menu_faq3 a[data-toggle="collapse"]:hover,
+#accordion_menu_faq4 a[data-toggle="collapse"]:hover,
+#accordion_menu_faq5 a[data-toggle="collapse"]:hover,
+#accordion_menu_faq6 a[data-toggle="collapse"]:hover,
+#accordion_menu_faq7 a[data-toggle="collapse"]:hover,
+#accordion_menu_faq8 a[data-toggle="collapse"]:hover,
+#accordion_menu_faq9 a[data-toggle="collapse"]:hover,
+#accordion_menu_faq10 a[data-toggle="collapse"]:hover,
+#accordion_menu_faq11 a[data-toggle="collapse"]:hover,
+#accordion_menu_faq12 a[data-toggle="collapse"]:hover,
+#accordion_menu_faq13 a[data-toggle="collapse"]:hover{
+    background: none;
+}
+#accordion_menu a[data-toggle="collapse"]::after,
+#accordion_menu_faq2 a[data-toggle="collapse"]::after,
+#accordion_menu_faq3 a[data-toggle="collapse"]::after,
+#accordion_menu_faq4 a[data-toggle="collapse"]::after,
+#accordion_menu_faq5 a[data-toggle="collapse"]::after,
+#accordion_menu_faq6 a[data-toggle="collapse"]::after,
+#accordion_menu_faq7 a[data-toggle="collapse"]::after,
+#accordion_menu_faq8 a[data-toggle="collapse"]::after,
+#accordion_menu_faq9 a[data-toggle="collapse"]::after,
+#accordion_menu_faq10 a[data-toggle="collapse"]::after,
+#accordion_menu_faq11 a[data-toggle="collapse"]::after,
+#accordion_menu_faq12 a[data-toggle="collapse"]::after,
+#accordion_menu_faq13 a[data-toggle="collapse"]::after{
+    content:"";
+    display: block;
+    width: 8px;
+    height: 8px;
+    border-top: #292929 3px solid;
+    border-right: #292929 3px solid;
+    position: absolute;
+    right: 15px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+#accordion_menu a[aria-expanded=false]::after,
+#accordion_menu_faq2 a[aria-expanded=false]::after,
+#accordion_menu_faq3 a[aria-expanded=false]::after,
+#accordion_menu_faq4 a[aria-expanded=false]::after,
+#accordion_menu_faq5 a[aria-expanded=false]::after,
+#accordion_menu_faq6 a[aria-expanded=false]::after,
+#accordion_menu_faq7 a[aria-expanded=false]::after,
+#accordion_menu_faq8 a[aria-expanded=false]::after,
+#accordion_menu_faq9 a[aria-expanded=false]::after,
+#accordion_menu_faq10 a[aria-expanded=false]::after,
+#accordion_menu_faq11 a[aria-expanded=false]::after,
+#accordion_menu_faq12 a[aria-expanded=false]::after,
+#accordion_menu_faq13 a[aria-expanded=false]::after{
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    transition-duration: 0.3s;
+}
+#accordion_menu a[aria-expanded=true]::after,
+#accordion_menu_faq2 a[aria-expanded=true]::after,
+#accordion_menu_faq3 a[aria-expanded=true]::after,
+#accordion_menu_faq4 a[aria-expanded=true]::after,
+#accordion_menu_faq5 a[aria-expanded=true]::after,
+#accordion_menu_faq6 a[aria-expanded=true]::after,
+#accordion_menu_faq7 a[aria-expanded=true]::after,
+#accordion_menu_faq8 a[aria-expanded=true]::after,
+#accordion_menu_faq9 a[aria-expanded=true]::after,
+#accordion_menu_faq10 a[aria-expanded=true]::after,
+#accordion_menu_faq11 a[aria-expanded=true]::after,
+#accordion_menu_faq12 a[aria-expanded=true]::after,
+#accordion_menu_faq13 a[aria-expanded=true]::after{
+    -webkit-transform: rotate(135deg);
+    -ms-transform: rotate(135deg);
+    transform: rotate(135deg);
+    transition-duration: 0.3s;
+}
+[id^="menu"] li{
+    padding: 10px 10px 10px 10px;
+    background: #fff;
+    border-bottom: #292929 1px solid;
+}
+
+
+
+/*shops*/
+.anchor {margin-top: 100px;}
+
+#etc .name:before{
+    margin:0 10px 0 0;
+    content:" ";
+    display:inline-block;
+    width:50px;
+    height:50px;
+	background: url("../img/azuma_logo.png");
+    background-size:contain;
+    vertical-align:middle;
+}
+
+
+#BYC .name:before{
+    margin:0 10px 0 0;
+    content:" ";
+    display:inline-block;
+    width:50px;
+    height:50px;
+	background: url("../img/BYC_logo.png");
+    background-size:contain;
+    vertical-align:middle;
+}
+
+
+#ysroad .name:before{
+    margin:0 10px 0 0;
+    content:" ";
+    display:inline-block;
+    width:50px;
+    height:50px;
+	background: url("../img/ysroad_logo.jpg");
+    background-size:contain;
+    vertical-align:middle;
+}
+
+
+.name {display: block; font-weight:600;margin-top: 0.5em}
+.zipcode {display: block;}
+.address {display: block;}
+.tel {display: block;}
+.tel:before {font-family: "Font Awesome 5 Free";
+  font-weight:900;
+  content: "\f095";
+  margin-right: 5px;}
+
+
+/*
+.shop-set:after {font-family: "Font Awesome 5 Free";
+  font-weight:900;
+  content: "\f054";
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  margin-top: -12px;
+}*/
+
+ .clear{clear: both;}
+
+.shop-set {
+	padding: 5px 0;
+	border-bottom: #ddd 1px solid;
+    position: relative;
+    z-index: 1;
+}
+.shop-set a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-indent:-999px;
+    z-index: 2;
+}
+
+.shop-set a:hover {
+	background: #fff;
+    filter:alpha(opacity=30);/* IE 6,7*/
+    -ms-filter: "alpha(opacity=30)";/* IE 8,9 */
+    -moz-opacity:0.3;/* FF , Netscape */
+    -khtml-opacity: 0.3;/* Safari 1.x */
+    opacity:0.3;
+    zoom:1;/*IE*/
+}
+
+
+@media screen and (min-width: 768px) {
+  .sp_br{
+    display: none;
+  }
+}
+
+/*見出し*/
+.hl_line{
+position: relative;
+display: inline-block;
+padding: 0 55px;
+}
+
+.hl_line:before, .hl_line:after{
+content: '';
+position: absolute;
+top: 50%;
+display: inline-block;
+width: 45px;
+height: 1px;
+background-color: black;
+}
+
+.hl_line:before {left:0;}
+.hl_line:after {right: 0;}
+
+
+
+
+.badges img {
+  height: 60px;
+}
+
+
+
+/*news*/
+.news { list-style: none; }
+.news ul li{margin:0; padding: 0; list-style: none;}
+.news img {width: 60px; width: 60px;padding-right: 10px; float: left;}
+.news li {border-bottom: 1px #ddd solid;padding-top: 20px}
+.news p:after {clear: both;}
+
+
+.news li:first-child {border-top: 1px #ddd solid;}
+
+
+
+/*law*/
+.lawBox {padding: 10px;}
+
+ol {list-style:none;}
+.text-big{font-weight: 600; line-height: 50px;}
+
+
+
+
+
+#law-table th,
+#law-table td{padding: 10px}
+
+
+
+#law-table th{width: 30%;}
+
+@media screen and (max-width: 480px) {
+	#law-table th{width: 100%;border-bottom: 2px solid #333;display: block;padding-top: 20px;}
+	#law-table td{width: 100%;display: block}
+	}
+
+
+/*form*/
+
+@media screen and (max-width: 767px) {
+.sp-nonebr {display: none;}
+#form label {width: 100%!important;text-align: left!important;}
+#form input[type="text"],
+#form select,
+#form textarea {width: 100%!important;text-align: left!important;display: block!important;clear:both!important;}
+.details-box{height: 150px}
+  }
+
+
+#form {width: 100%;margin: 0 auto;padding: 20px; background: #fff;}
+#form span {width: 100%; padding-bottom: 5px; display: inline-block;}
+#form label {padding: 10px; width: 30%;text-align: right; padding-right: 10px;float: left; border-bottom: 3px solid #d7f15c;}
+#form select {background: #fff;border-radius:0;}
+
+#form input[type="text"],
+#form select,
+#form textarea
+ {padding: 10px; width: 70%; float: right; margin-bottom: 5px;border: none;border-bottom: 3px solid #8FC31F;border-radius:0;}
+
+#form select{height: 48px;}
+
+
+.clear {clear: both;}
+
+.must {background: #ff4e5b; color: #fff; font-size: 12px; width:20px; padding: 4px 5px; margin-left: 5px; display:inline!important;}
+
+::placeholder{
+  color:#ccc
+}
+
+/* フッターの制作(一番下の部分)4.23 */
+
+@media (max-width:670px){
+
+    .footer-menu li{
+      font-size:17px;
+    }
+  
+  }
+  
+  .footer2{
+    background-color:#99CC00;
+  }
+  
+  .footer-menu li{
+    color:white;
+  }
+  
+  @media screen and (min-width:670px){
+    .br-sp {
+      display: none;
+    }
+  
+  }
+  
+
+
+.border-gray {border: 1px solid #ddd;}

@@ -1,0 +1,219 @@
+.header{
+  background-color: rgba(34, 19, 16, 0.7);
+  position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+
+.header-text li:hover{
+  opacity:0.6;
+}
+
+
+.topimg{
+  text-align: center;
+}
+
+
+
+.img1{
+  width: 80%;
+}
+
+.top{
+  background-color:#EEEEEE;
+}
+
+.top h2, h6{
+  text-align: center;
+}
+
+.top p{
+  text-align: center;
+  font-size:13px;
+}
+
+/* 以下はmain部分のboxのコード */
+
+.main-left {
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    font-weight: bold;
+    color: black;/*文字色*/
+    background: #FFF;
+    border: solid 5px #66CC33;/*線*/
+    border-radius: 10px;/*角の丸み*/
+
+}
+.main-left p {
+    margin: 0;
+    padding: 0;
+
+}
+
+.main-right {
+    padding: 0.5em 1em;
+    margin: 2em 0em;
+    font-weight: bold;
+    color: black;/*文字色*/
+    background: #FFF;
+    border: solid 5px #66CC33;/*線*/
+    border-radius: 10px;/*角の丸み*/
+}
+.main-right p {
+    margin: 0;
+    padding: 0;
+}
+
+.main-left span{
+  font-size: 22px;
+}
+
+.main-left h5{
+  font-weight: 600;
+}
+
+.main-left h4{
+  font-weight: 600;
+}
+
+
+
+.text p{
+  font-weight: 100;
+  font-size: 13px;
+  text-align: center;
+}
+
+.main-right span{
+  font-size: 22px;
+}
+
+.main-right h5{
+  font-weight: 600;
+}
+
+.main-right h4{
+  font-weight: 600;
+}
+
+.buy-image:hover{
+  opacity:0.7;
+}
+
+/* 以下フッターなので３ページ目にもコピペで利用して良い */
+.footer{
+  background-image: url(/image/common/pet_10_sita.jpg);
+  background-size: cover;
+}
+
+.footer p{
+  text-align: center;
+}
+
+.download{
+  width: 20%;
+}
+
+.apple{
+  width: 80%;
+}
+
+.google{
+  width: 84%;
+}
+
+/* アップルとGoogleのロゴがクリックされた時に薄くするコード4-27 */
+
+.apple:hover{
+  opacity:0.7;
+}
+
+.google:hover{
+  opacity:0.7;
+}
+
+
+/* フッターの部分 */
+
+.footer01{
+    width: 100%;
+    height: auto;
+    background-color:black;
+    color: white;
+    text-align: center;
+}
+ul.footer-menu li {
+display: inline;
+}
+
+.link{
+  color: white;
+}
+
+  /* フッター部分にカーソルがあった時に色を薄くする */
+  .footer-menu li:hover{
+    opacity: 0.6;
+  }
+
+
+/* フッター部分 */
+
+@media (max-width:670px){
+  .apple{
+    width: 140%;
+  }
+
+  .google{
+    width: 144%;
+  }
+
+  .download{
+    width: 40%;
+  }
+  .lasttext{
+    font-size: 15px;
+  }
+
+}
+
+.footer2{
+  background-color:#99CC00;
+}
+.footer3{
+  background-color:black;
+}
+
+.footer3 p{
+  color:white;
+}
+
+.last{
+  text-align: center;
+}
+
+/* フッターの制作(一番下の部分)4.23 */
+
+@media (max-width:670px){
+
+  .footer-menu li{
+    font-size:15px;
+  }
+
+}
+
+.footer2{
+  background-color:#99CC00;
+}
+
+.footer-menu li{
+  color:white;
+}
+
+@media screen and (min-width:670px){
+  .br-sp {
+    display: none;
+  }
+
+}
+

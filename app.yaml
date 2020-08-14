@@ -1,0 +1,25 @@
+service: pet-test
+runtime: php55
+api_version: 1
+threadsafe: true
+instance_class: F1
+
+handlers:
+- url: /(.*)/
+  static_files: \1/index.html
+  upload: (.*)/index.html
+  secure: always
+
+- url: /css
+  static_dir: css
+
+- url: /image
+  static_dir: image
+
+- url: /vender
+  static_dir: vender
+
+- url: /.*
+  static_files: index.html
+  upload: index.html
+  secure: always
